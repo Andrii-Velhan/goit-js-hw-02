@@ -2,10 +2,10 @@
 
 function checkForSpam(str) {
   // Write code under this line
-  let items = str.toLowerCase();
+  let message = str.toLowerCase();
 
-  console.log(items);
-  return items.includes('sale') || items.includes('spam');
+  //console.log(message);
+  return message.includes('sale') || message.includes('spam');
 }
 
 //console.log(checkForSpam('Latest technology news')); // false
